@@ -85,7 +85,8 @@ public class App {
                 LOGGER.log(Level.SEVERE, App.getStackTrace(e));
             }
 
-            LOGGER.log(Level.INFO, "Programa corrio exitosamente");
+            LOGGER.log(Level.INFO, "Programa terminado exitosamente");
+            System.out.println("Puede ver el log en el archivo bitacora.log");
 
         } catch (IOException ex) {
             LOGGER.log(Level.SEVERE, "Error de IO");
